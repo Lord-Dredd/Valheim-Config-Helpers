@@ -1,0 +1,283 @@
+- name: respawn
+  clips: []
+  volume: 1
+  fadeInTime: 3
+  loop: true
+- name: intro
+  clips:
+  - Entering Valheim
+  volume: 0.5
+  fadeInTime: 5
+  alwaysFadeOut: true
+- name: menu
+  clips:
+  - MenuMusic
+  volume: 0.6
+  fadeInTime: 2
+  loop: true
+- name: combat
+  clips:
+  - ForestIsMovingLv4
+  volume: 0.5
+  fadeInTime: 10
+  loop: true
+- name: CombatEventL1
+  clips:
+  - ForestIsMovingLv1
+  volume: 0.4
+  fadeInTime: 5
+  loop: true
+  resume: true
+- name: CombatEventL2
+  clips:
+  - ForestIsMovingLv2
+  volume: 0.4
+  fadeInTime: 5
+  loop: true
+  resume: true
+- name: CombatEventL3
+  clips:
+  - ForestIsMovingLv3
+  volume: 0.4
+  fadeInTime: 5
+  loop: true
+  resume: true
+- name: CombatEventL4
+  clips:
+  - ForestIsMovingLv4
+  volume: 0.4
+  fadeInTime: 5
+  loop: true
+  resume: true
+- name: boss_eikthyr
+  clips:
+  - Battle 1 - Eikthyr
+  volume: 0.5
+  fadeInTime: 4
+  loop: true
+  resume: true
+- name: boss_gdking
+  clips:
+  - Battle 2 - Elder
+  volume: 0.5
+  fadeInTime: 4
+  loop: true
+  resume: true
+- name: boss_bonemass
+  clips:
+  - Boss 3 Bonemass
+  volume: 0.5
+  fadeInTime: 4
+  loop: true
+  resume: true
+- name: boss_moder
+  clips:
+  - Boss 4 Mother
+  volume: 0.5
+  fadeInTime: 4
+  loop: true
+  resume: true
+- name: boss_goblinking
+  clips:
+  - Boss 5 Yagluth
+  volume: 0.5
+  fadeInTime: 2
+  loop: true
+  resume: true
+- name: boss_queen
+  clips:
+  - Boss 6 Queen
+  volume: 0.3
+  fadeInTime: 4
+  loop: true
+  resume: true
+- name: boss_queen_ambience
+  clips:
+  - Boss 6 Queen Ambience
+  volume: 0.6
+  fadeInTime: 2
+  alwaysFadeOut: true
+  loop: true
+  resume: true
+- name: boss_fader
+  clips:
+  - Boss 7 Fader
+  volume: 0.7
+  fadeInTime: 4
+  loop: true
+  resume: true
+- name: morning
+  clips:
+  - Dawn
+  volume: 0.3
+  fadeInTime: 1
+- name: evening
+  clips:
+  - Dusk
+  volume: 0.3
+  fadeInTime: 1
+- name: sailing
+  clips:
+  - Sailing4
+  volume: 0.4
+  fadeInTime: 6
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: sailing_ashlands
+  clips:
+  - Sailing Ashlands
+  volume: 0.4
+  fadeInTime: 6
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: blackforest
+  clips:
+  - Black Forest(day)
+  volume: 0.2
+  fadeInTime: 10
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: meadows
+  clips:
+  - Meadows(day)
+  volume: 0.2
+  fadeInTime: 10
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: swamp
+  clips:
+  - Swamps
+  volume: 0.4
+  fadeInTime: 10
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: mountain
+  clips:
+  - Mountains
+  volume: 0.3
+  fadeInTime: 10
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: plains
+  clips:
+  - Plains
+  volume: 0.2
+  fadeInTime: 10
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: plainstower
+  clips:
+  - Plains - Sealed Tower
+  volume: 0.2
+  fadeInTime: 10
+  alwaysFadeOut: true
+  loop: true
+  resume: true
+- name: mistlands
+  clips:
+  - Mistlands
+  volume: 0.3
+  fadeInTime: 10
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: ashlands
+  clips:
+  - Ashlands
+  volume: 0.7
+  fadeInTime: 10
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: forestcrypt
+  clips:
+  - ForestCrypt
+  volume: 0.3
+  fadeInTime: 1
+  alwaysFadeOut: true
+  loop: true
+  resume: true
+- name: forestcrypthildir
+  clips:
+  - Black Forest - Smouldering Tomb
+  volume: 0.3
+  fadeInTime: 1
+  alwaysFadeOut: true
+  loop: true
+  resume: true
+- name: frostcaves
+  clips:
+  - Mountain Cave Sanctum
+  volume: 0.5
+  fadeInTime: 1
+  alwaysFadeOut: true
+  loop: true
+  resume: true
+- name: frostcaveshildir
+  clips:
+  - Mountains - Howling cavern
+  volume: 0.5
+  fadeInTime: 1
+  alwaysFadeOut: true
+  loop: true
+  resume: true
+- name: home
+  clips:
+  - HomeBase
+  volume: 0.3
+  fadeInTime: 3
+  alwaysFadeOut: true
+  ambientMusic: true
+  loop: true
+  resume: true
+- name: location_forest
+  clips:
+  - LocationReveal
+  volume: 0.3
+  fadeInTime: 3
+- name: location_haldor
+  clips:
+  - Black Forest - Haldor
+  volume: 0.8
+  fadeInTime: 3
+  loop: true
+  resume: true
+- name: location_dvergrtower
+  clips:
+  - Mistlands - Dvergr Tower
+  volume: 0.8
+  fadeInTime: 3
+  loop: true
+  resume: true
+- name: location_dvergrexc
+  clips:
+  - Mistlands - Dvergr Excavation Site
+  volume: 0.8
+  fadeInTime: 3
+  loop: true
+  resume: true
+- name: location_ashlands_ruins
+  clips:
+  - Ashlands - Ruins 1
+  - Ashlands - Ruins 2
+  - Ashlands - Ruins 3
+  volume: 0.8
+  fadeInTime: 3
+  loop: true
+  resume: true

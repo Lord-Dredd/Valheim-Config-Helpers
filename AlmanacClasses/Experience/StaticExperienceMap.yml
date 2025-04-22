@@ -1,0 +1,240 @@
+Beech1:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+Beech_Stub:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+beech_log:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+beech_log_half:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+Birch1:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+BirchStub:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+Birch1_aut:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+Birch2:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+Birch2_aut:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+Birch_log:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+Birch_log_half:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+FirTree:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+FirTree_log:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+FirTree_log_half:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+Oak1:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+Oak_log:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+Oak_log_half:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+SwampTree1:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+SwampTree1_log:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 100
+YggaShoot1:
+  Experience: 1
+  MinimumLevel: 20
+  MaximumLevel: 100
+YggaShoot2:
+  Experience: 1
+  MinimumLevel: 20
+  MaximumLevel: 100
+YggaShoot3:
+  Experience: 1
+  MinimumLevel: 20
+  MaximumLevel: 100
+yggashoot_log:
+  Experience: 1
+  MinimumLevel: 20
+  MaximumLevel: 100
+yggashoot_log_half:
+  Experience: 1
+  MinimumLevel: 20
+  MaximumLevel: 100
+OakStub:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+PineTree:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+Pinetree_01:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+PineTree_log:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+PineTree_log_half:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+Pinetree_01_Stub:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+FirTree_Stub:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+SwampTree1_Stub:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 100
+MineRock_Tin:
+  Experience: 1
+  MinimumLevel: 1
+  MaximumLevel: 20
+$piece_deposit_copper:
+  Experience: 2
+  MinimumLevel: 1
+  MaximumLevel: 20
+$piece_mudpile:
+  Experience: 3
+  MinimumLevel: 10
+  MaximumLevel: 40
+$piece_deposit_silvervein:
+  Experience: 3
+  MinimumLevel: 10
+  MaximumLevel: 50
+MineRock_Obsidian:
+  Experience: 5
+  MinimumLevel: 5
+  MaximumLevel: 50
+$piece_giant_brain:
+  Experience: 10
+  MinimumLevel: 20
+  MaximumLevel: 70
+sapling_seedturnip:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 40
+sapling_turnip:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 40
+sapling_seedcarrot:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 40
+sapling_carrot:
+  Experience: 1
+  MinimumLevel: 5
+  MaximumLevel: 40
+sapling_onion:
+  Experience: 2
+  MinimumLevel: 5
+  MaximumLevel: 50
+sapling_seedonion:
+  Experience: 2
+  MinimumLevel: 5
+  MaximumLevel: 50
+sapling_barley:
+  Experience: 2
+  MinimumLevel: 5
+  MaximumLevel: 100
+sapling_flax:
+  Experience: 2
+  MinimumLevel: 5
+  MaximumLevel: 100
+sapling_magecap:
+  Experience: 3
+  MinimumLevel: 5
+  MaximumLevel: 100
+sapling_jotunpuffs:
+  Experience: 3
+  MinimumLevel: 5
+  MaximumLevel: 100
+Fish1:
+  Experience: 10
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish2:
+  Experience: 20
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish3:
+  Experience: 30
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish4_cave:
+  Experience: 40
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish5:
+  Experience: 50
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish6:
+  Experience: 60
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish7:
+  Experience: 70
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish8:
+  Experience: 80
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish9:
+  Experience: 90
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish10:
+  Experience: 100
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish11:
+  Experience: 110
+  MinimumLevel: 1
+  MaximumLevel: 100
+Fish12:
+  Experience: 120
+  MinimumLevel: 1
+  MaximumLevel: 100

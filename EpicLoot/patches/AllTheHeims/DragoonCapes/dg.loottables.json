@@ -1,0 +1,77 @@
+{
+	"TargetFile": "loottables.json",
+	"Author": "AllTheHeims",
+	"RequireAll": true, 
+	"Patches": 
+		[
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier1Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "CapeBoar",    	"Weight": 1, "Rarity": [95, 3, 2, 0, 0] },
+					{ "Item": "CapeBush",    	"Weight": 1, "Rarity": [95, 3, 2, 0, 0] }
+				]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier2Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "CapeGreydwarf",    	"Weight": 1, "Rarity": [92, 5, 3, 0, 0] },
+					{ "Item": "CapeSerpent",    	"Weight": 1, "Rarity": [92, 5, 3, 0, 0] },
+					{ "Item": "CapeEinherjar",    	"Weight": 1, "Rarity": [92, 5, 3, 0, 0] }
+				]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier3Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "CapeLeech",    		"Weight": 1, "Rarity": [60, 25, 10, 5, 0] },
+					{ "Item": "CapeNeck",    		"Weight": 1, "Rarity": [60, 25, 10, 5, 0] },
+					{ "Item": "CapeSurtling",    	"Weight": 1, "Rarity": [60, 25, 10, 5, 0] },
+					{ "Item": "CapeWraith",    		"Weight": 1, "Rarity": [60, 25, 10, 5, 0] }
+				]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier4Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "CapeAdventurer",    	"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+					{ "Item": "CapeBerserker",    	"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+					{ "Item": "CapeCultist",    	"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+					{ "Item": "CapeStalker",    	"Weight": 1, "Rarity": [25, 35, 25, 10, 5] },
+					{ "Item": "CapeBrawler",    	"Weight": 1, "Rarity": [25, 35, 25, 10, 5] }
+				]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier5Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "CapeCrusader",    	"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "CapeKnight",    		"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "CapeShaman",    		"Weight": 1, "Rarity": [35, 35, 20, 8, 2] },
+					{ "Item": "CapeRusted",    		"Weight": 1, "Rarity": [35, 35, 20, 8, 2] }
+				]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier6Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "CapeRabbit",    		"Weight": 1, "Rarity": [15, 40, 30, 10, 5] }
+				]
+			},
+			{
+				"Path": "$.ItemSets[?(@.Name == 'Tier7Armor')].Loot", 
+				"Action": "AppendAll",
+				"Value": 
+				[
+					{ "Item": "CapeDvergr",    		"Weight": 1, "Rarity": [5, 30, 40, 20, 10] }
+				]
+			}
+		]
+}

@@ -1,0 +1,84 @@
+{
+  "TargetFile": "loottables.json",
+  "Author": "Majestic",
+  "Priority": 400,
+  "RequireAll": true,
+  "Patches": [
+	{
+      "Path": "$.LootTables",
+      "Action": "AppendAll",
+      "Value": [
+	{
+      "Object": "Razorback_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "GDAncientShaman_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "RottingElk_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "Crawler_TW",
+      "RefObject": "CreatureMats"
+    },
+	
+	{
+      "Object": "SurtrImp_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "SurtrBones_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "SurtrHound_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "SurtrDrake_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "SurtrWarbringer_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "SurtrSeer_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "DaggerFang_TW",
+      "RefObject": "CreatureMats"
+    },
+	
+	{
+      "Object": "ArcticWolf_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "StormCultist_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "StormFenring_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "JotunnBladefist_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "JotunnShaman_TW",
+      "RefObject": "CreatureMats"
+    },
+	{
+      "Object": "JotunnWolf_TW",
+      "RefObject": "CreatureMats"
+    }
+   ]
+  }
+ ]
+}
