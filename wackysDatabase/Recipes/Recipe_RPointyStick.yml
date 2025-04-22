@@ -1,0 +1,15 @@
+name: RPointyStick
+clonePrefabName: PointyStick
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- Wood:10:5:True
+- Bronze:10:5:True
+- DeerHide:10:5:True
