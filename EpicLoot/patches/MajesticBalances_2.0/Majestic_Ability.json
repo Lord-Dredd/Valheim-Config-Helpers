@@ -1,0 +1,35 @@
+{
+  "TargetFile": "abilities.json", 
+  "Author": "Majestic",
+  "RequireAll": true, 
+  "Patches": [
+    {
+      "Path": "$.Abilities",
+      "Action": "Overwrite",
+      "Value": [
+    {
+      "ID" : "Bulwark",
+      "IconAsset": "BulwarkIcon",
+      "ActivationMode": "Activated",
+      "Cooldown" : 300,
+      "Action": "StatusEffect",
+      "ActionParams": [ "BulwarkStatusEffect" ]
+    },
+    {
+      "ID" : "Undying",
+      "IconAsset": "UndyingIcon",
+      "ActivationMode": "Triggerable",
+      "Cooldown" : 1200
+    },
+    {
+      "ID" : "Berserker",
+      "IconAsset": "BerserkerIcon",
+      "ActivationMode": "Activated",
+      "Cooldown" : 300,
+      "Action": "StatusEffect",
+      "ActionParams": [ "BerserkerStatusEffect" ]
+    }
+   ]
+  }
+ ]
+}

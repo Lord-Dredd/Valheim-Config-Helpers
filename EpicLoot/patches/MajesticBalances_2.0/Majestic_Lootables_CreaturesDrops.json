@@ -1,0 +1,523 @@
+{
+  "TargetFile": "loottables.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Troll')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier2Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Abomination')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier3Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Wraith')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier3Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Draugr_Elite')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier3Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Serpent')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier3Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'StoneGolem')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier4Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Fenring')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier4Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'GoblinBrute')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier5Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Lox')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier5Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'SeekerBrute')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier6Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Gjall')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier6Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'BonemawSerpent')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier7Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'FallenValkyrie')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier7Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Morgen')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier7Mob"
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Morgen_NonSleeping')].RefObject",
+	  "Action": "Overwrite",
+	  "Value": "Tier7Mob"
+	},
+	
+    {
+	  "Path": "$.LootTables[?(@.Object == 'Tier0Mob')].LeveledLoot",
+	  "Action": "Overwrite",
+	  "Value": [
+	{
+	  "Level": 1,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 90, 10, 0, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 2,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 85, 10, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 3,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 4,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 75, 15, 10, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 5,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 70, 20, 10, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 6,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 65, 20, 10, 5, 0 ] }
+	   ]
+	  }
+	 ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tier1Mob')].LeveledLoot",
+	  "Action": "Overwrite",
+	  "Value": [
+	{
+	  "Level": 1,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 2,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 75, 10, 7, 3, 1 ] }
+	  ]
+	},
+	{
+	  "Level": 3,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 60, 22, 10, 5, 3 ] }
+	  ]
+	},
+	{
+	  "Level": 4,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 40, 35, 13, 7, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 5,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 20, 45, 20, 10, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 6,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 5, 25, 35, 25, 10 ] }
+	   ]
+	  }
+	 ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tier2Mob')].LeveledLoot",
+	  "Action": "Overwrite",
+	  "Value": [
+	{
+	  "Level": 1,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 2,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 75, 10, 7, 3, 1 ] }
+	  ]
+	},
+	{
+	  "Level": 3,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 60, 22, 10, 5, 3 ] }
+	  ]
+	},
+	{
+	  "Level": 4,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 40, 35, 13, 7, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 5,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 20, 45, 20, 10, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 6,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 5, 25, 35, 25, 10 ] }
+	   ]
+	  }
+	 ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tier3Mob')].LeveledLoot",
+	  "Action": "Overwrite",
+	  "Value": [
+	{
+	  "Level": 1,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 2,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 75, 10, 7, 3, 1 ] }
+	  ]
+	},
+	{
+	  "Level": 3,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 60, 22, 10, 5, 3 ] }
+	  ]
+	},
+	{
+	  "Level": 4,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 40, 35, 13, 7, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 5,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 20, 45, 20, 10, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 6,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 5, 25, 35, 25, 10 ] }
+	   ]
+	  }
+	 ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tier4Mob')].LeveledLoot",
+	  "Action": "Overwrite",
+	  "Value": [
+	{
+	  "Level": 1,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 2,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 75, 10, 7, 3, 1 ] }
+	  ]
+	},
+	{
+	  "Level": 3,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 60, 22, 10, 5, 3 ] }
+	  ]
+	},
+	{
+	  "Level": 4,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 40, 35, 13, 7, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 5,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 20, 45, 20, 10, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 6,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 5, 25, 35, 25, 10 ] }
+	   ]
+	  }
+	 ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tier5Mob')].LeveledLoot",
+	  "Action": "Overwrite",
+	  "Value": [
+	{
+	  "Level": 1,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 2,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 75, 10, 7, 3, 1 ] }
+	  ]
+	},
+	{
+	  "Level": 3,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 60, 22, 10, 5, 3 ] }
+	  ]
+	},
+	{
+	  "Level": 4,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 40, 35, 13, 7, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 5,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 20, 45, 20, 10, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 6,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 5, 25, 35, 25, 10 ] }
+	   ]
+	  }
+	 ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tier6Mob')].LeveledLoot",
+	  "Action": "Overwrite",
+	  "Value": [
+	{
+	  "Level": 1,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 2,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 75, 10, 7, 3, 1 ] }
+	  ]
+	},
+	{
+	  "Level": 3,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 60, 22, 10, 5, 3 ] }
+	  ]
+	},
+	{
+	  "Level": 4,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 40, 35, 13, 7, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 5,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 20, 45, 20, 10, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 6,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 5, 25, 35, 25, 10 ] }
+	   ]
+	  }
+	 ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tier7Mob')].LeveledLoot",
+	  "Action": "Overwrite",
+	  "Value": [
+	{
+	  "Level": 1,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 2,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 75, 10, 7, 3, 1 ] }
+	  ]
+	},
+	{
+	  "Level": 3,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 60, 22, 10, 5, 3 ] }
+	  ]
+	},
+	{
+	  "Level": 4,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 40, 35, 13, 7, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 5,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 20, 45, 20, 10, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 6,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 5, 25, 35, 25, 10 ] }
+	   ]
+	  }
+	 ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'Tier8Mob')].LeveledLoot",
+	  "Action": "Overwrite",
+	  "Value": [
+	{
+	  "Level": 1,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] }
+	  ]
+	},
+	{
+	  "Level": 2,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 75, 10, 7, 3, 1 ] }
+	  ]
+	},
+	{
+	  "Level": 3,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 60, 22, 10, 5, 3 ] }
+	  ]
+	},
+	{
+	  "Level": 4,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 40, 35, 13, 7, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 5,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 20, 45, 20, 10, 5 ] }
+	  ]
+	},
+	{
+	  "Level": 6,
+	  "Drops": [ [0, 85], [1, 10], [2, 5], [3, 0] ],
+	  "Loot": [
+	    { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 5, 25, 35, 25, 10 ] }
+	  ]
+	}
+   ]
+  }
+ ]
+}

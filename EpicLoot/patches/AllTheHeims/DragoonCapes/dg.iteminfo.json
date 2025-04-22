@@ -1,0 +1,30 @@
+{
+	"TargetFile": "iteminfo.json",
+	"Author": "AllTheHeims",
+	"RequireAll": true,
+	"Patches":
+		[
+			{
+				"Path": "$.ItemInfo",
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{
+							"Type": "ShouldersArmor",
+							"Fallback": "",
+							"Items": ["CapeBoar", "CapeBush", "CapeGreydwarf", "CapeSerpent", "CapeEinherjar", "CapeLeech", "CapeNeck", "CapeSurtling", "CapeWraith", "CapeAdventurer", "CapeBerserker", "CapeCultist", "CapeStalker", "CapeCrusader", "CapeKnight", "CapeShaman", "CapeDvergr", "CapeBrawler", "CapeRabbit", "CapeRusted"],
+							"ItemsByBoss" : 
+								{
+									"defeated_eikthyr"    : ["CapeBoar", "CapeBush"],
+									"defeated_gdking"     : ["CapeGreydwarf", "CapeSerpent", "CapeEinherjar"],
+									"defeated_bonemass"   : ["CapeLeech", "CapeNeck", "CapeSurtling", "CapeWraith"],
+									"defeated_dragon"     : ["CapeAdventurer", "CapeBerserker", "CapeCultist", "CapeStalker", "CapeRusted"],
+									"defeated_goblinking" : ["CapeCrusader", "CapeKnight", "CapeShaman"],
+									"defeated_queen"      : ["CapeDvergr", "CapeRabbit"],
+									"defeated_fader"      : ["CapeBrawler"]
+								}
+						}
+					]
+			}
+		]
+}

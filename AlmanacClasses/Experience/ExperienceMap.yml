@@ -1,0 +1,272 @@
+Greyling:
+  Experience: 5
+  MinimumLevel: 1
+  MaximumLevel: 15
+Boar:
+  Experience: 5
+  MinimumLevel: 1
+  MaximumLevel: 15
+Deer:
+  Experience: 5
+  MinimumLevel: 1
+  MaximumLevel: 15
+Neck:
+  Experience: 5
+  MinimumLevel: 1
+  MaximumLevel: 15
+Eikthyr:
+  Experience: 50
+  MinimumLevel: 1
+  MaximumLevel: 15
+Greydwarf:
+  Experience: 10
+  MinimumLevel: 5
+  MaximumLevel: 25
+Greydwarf_Elite:
+  Experience: 15
+  MinimumLevel: 5
+  MaximumLevel: 25
+Greydwarf_Shaman:
+  Experience: 15
+  MinimumLevel: 5
+  MaximumLevel: 25
+Ghost:
+  Experience: 3
+  MinimumLevel: 5
+  MaximumLevel: 25
+Skeleton:
+  Experience: 2
+  MinimumLevel: 5
+  MaximumLevel: 25
+Troll:
+  Experience: 25
+  MinimumLevel: 5
+  MaximumLevel: 25
+Skeleton_Hildir:
+  Experience: 20
+  MinimumLevel: 5
+  MaximumLevel: 35
+gd_king:
+  Experience: 50
+  MinimumLevel: 5
+  MaximumLevel: 25
+TentaRoot:
+  Experience: 0
+  MinimumLevel: 100
+  MaximumLevel: 100
+Surtling:
+  Experience: 3
+  MinimumLevel: 10
+  MaximumLevel: 30
+Leech:
+  Experience: 5
+  MinimumLevel: 10
+  MaximumLevel: 30
+Skeleton_Poison:
+  Experience: 5
+  MinimumLevel: 10
+  MaximumLevel: 30
+Draugr:
+  Experience: 10
+  MinimumLevel: 10
+  MaximumLevel: 30
+Draugr_ranged:
+  Experience: 10
+  MinimumLevel: 10
+  MaximumLevel: 30
+Draugr_Elite:
+  Experience: 15
+  MinimumLevel: 10
+  MaximumLevel: 30
+Blob:
+  Experience: 5
+  MinimumLevel: 10
+  MaximumLevel: 30
+BlobElite:
+  Experience: 10
+  MinimumLevel: 10
+  MaximumLevel: 30
+Wraith:
+  Experience: 15
+  MinimumLevel: 10
+  MaximumLevel: 30
+Abomination:
+  Experience: 20
+  MinimumLevel: 10
+  MaximumLevel: 30
+Bonemass:
+  Experience: 100
+  MinimumLevel: 10
+  MaximumLevel: 30
+Serpent:
+  Experience: 30
+  MinimumLevel: 10
+  MaximumLevel: 50
+Bat:
+  Experience: 8
+  MinimumLevel: 15
+  MaximumLevel: 40
+Wolf:
+  Experience: 10
+  MinimumLevel: 15
+  MaximumLevel: 40
+Hatchling:
+  Experience: 5
+  MinimumLevel: 15
+  MaximumLevel: 40
+Ulv:
+  Experience: 15
+  MinimumLevel: 15
+  MaximumLevel: 40
+Fenring:
+  Experience: 18
+  MinimumLevel: 15
+  MaximumLevel: 40
+Fenring_Cultist:
+  Experience: 25
+  MinimumLevel: 15
+  MaximumLevel: 40
+StoneGolem:
+  Experience: 30
+  MinimumLevel: 15
+  MaximumLevel: 40
+Dragon:
+  Experience: 150
+  MinimumLevel: 15
+  MaximumLevel: 40
+Fenring_Cultist_Hildr:
+  Experience: 30
+  MinimumLevel: 15
+  MaximumLevel: 60
+Deathsquito:
+  Experience: 20
+  MinimumLevel: 20
+  MaximumLevel: 60
+Goblin:
+  Experience: 20
+  MinimumLevel: 20
+  MaximumLevel: 60
+GoblinShaman:
+  Experience: 25
+  MinimumLevel: 20
+  MaximumLevel: 60
+GoblinBrute:
+  Experience: 25
+  MinimumLevel: 20
+  MaximumLevel: 60
+Lox:
+  Experience: 25
+  MinimumLevel: 20
+  MaximumLevel: 60
+BlobTar:
+  Experience: 25
+  MinimumLevel: 20
+  MaximumLevel: 60
+GoblinKing:
+  Experience: 200
+  MinimumLevel: 20
+  MaximumLevel: 60
+GoblinShaman_Hildir:
+  Experience: 40
+  MinimumLevel: 20
+  MaximumLevel: 80
+GoblinBrute_Hildir:
+  Experience: 40
+  MinimumLevel: 20
+  MaximumLevel: 80
+GoblinBruteBros:
+  Experience: 40
+  MinimumLevel: 20
+  MaximumLevel: 80
+Hare:
+  Experience: 25
+  MinimumLevel: 25
+  MaximumLevel: 80
+Tick:
+  Experience: 25
+  MinimumLevel: 25
+  MaximumLevel: 80
+SeekerBrood:
+  Experience: 25
+  MinimumLevel: 25
+  MaximumLevel: 80
+Seeker:
+  Experience: 30
+  MinimumLevel: 25
+  MaximumLevel: 80
+SeekerBrute:
+  Experience: 35
+  MinimumLevel: 25
+  MaximumLevel: 80
+Dverger:
+  Experience: 35
+  MinimumLevel: 25
+  MaximumLevel: 80
+DvergerArbalest:
+  Experience: 35
+  MinimumLevel: 25
+  MaximumLevel: 80
+DvergerMage:
+  Experience: 35
+  MinimumLevel: 25
+  MaximumLevel: 80
+DvergerMageFire:
+  Experience: 35
+  MinimumLevel: 25
+  MaximumLevel: 80
+DvergerMageIce:
+  Experience: 35
+  MinimumLevel: 25
+  MaximumLevel: 80
+DvergerMageSupport:
+  Experience: 35
+  MinimumLevel: 25
+  MaximumLevel: 80
+Gjall:
+  Experience: 40
+  MinimumLevel: 25
+  MaximumLevel: 80
+SeekerQueen:
+  Experience: 250
+  MinimumLevel: 25
+  MaximumLevel: 80
+Charred_Twitcher:
+  Experience: 30
+  MinimumLevel: 30
+  MaximumLevel: 100
+Charred_Archer:
+  Experience: 35
+  MinimumLevel: 30
+  MaximumLevel: 100
+Charred_Melee:
+  Experience: 35
+  MinimumLevel: 30
+  MaximumLevel: 100
+Charred_Mage:
+  Experience: 35
+  MinimumLevel: 30
+  MaximumLevel: 100
+Morgen:
+  Experience: 40
+  MinimumLevel: 30
+  MaximumLevel: 100
+Morgen_NonSleeping:
+  Experience: 40
+  MinimumLevel: 30
+  MaximumLevel: 100
+FallenValkyrie:
+  Experience: 40
+  MinimumLevel: 30
+  MaximumLevel: 100
+Goblin_Gem:
+  Experience: 40
+  MinimumLevel: 30
+  MaximumLevel: 100
+Charred_Melee_Dyrnwyn:
+  Experience: 45
+  MinimumLevel: 30
+  MaximumLevel: 100
+Fader:
+  Experience: 100
+  MinimumLevel: 30
+  MaximumLevel: 100

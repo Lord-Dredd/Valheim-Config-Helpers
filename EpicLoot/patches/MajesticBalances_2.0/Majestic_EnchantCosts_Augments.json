@@ -1,0 +1,20 @@
+//Augmenting no longer requires Coins but instead Tokens, which you'll need to do Bounties and Maps//
+{
+  "TargetFile": "enchantcosts.json",
+  "Author": "Majestic",
+  "RequireAll": true,
+  "Patches": [
+    {
+      "Path": "$.ReAugmentCosts",
+      "Action": "Overwrite",
+      "Value": [
+        { "Item": "ForestToken", "Amount": 2 },
+		{ "Item": "ForestToken", "Amount": 5 },
+		{ "Item": "IronBountyToken", "Amount": 5 },
+		{ "Item": "IronBountyToken", "Amount": 10 },
+		{ "Item": "GoldBountyToken", "Amount": 5 },
+		{ "Item": "GoldBountyToken", "Amount": 10 }
+      ]
+    }
+  ]
+}

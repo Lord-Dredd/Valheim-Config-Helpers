@@ -1,0 +1,288 @@
+///TreasureChests will no longer drop Enchanted Equipment and only resources///
+{
+  "TargetFile": "loottables.json",
+  "Author": "Majestic",
+  "Priority": 900,
+  "RequireAll": true,
+  "Patches": [
+	{
+      "Path": "$.ItemSets",
+      "Action": "AppendAll",
+      "Value": [
+	{
+      "Name": "MaterialsA",
+      "Loot": [
+	  { "Item": "DustMagic"},
+	  { "Item": "RunestoneMagic"},
+	  { "Item": "ShardMagic"},
+	  { "Item": "EssenceMagic"}
+	 ]
+	},	
+	{
+      "Name": "MaterialsB",
+      "Loot": [
+	  { "Item": "DustRare"},
+	  { "Item": "RunestoneRare"},
+	  { "Item": "ShardRare"},
+	  { "Item": "EssenceRare"}
+	 ]
+	},
+	{
+      "Name": "MaterialsC",
+      "Loot": [
+	  { "Item": "DustEpic"},
+	  { "Item": "RunestoneEpic"},
+	  { "Item": "ShardEpic"},
+	  { "Item": "EssenceEpic"}
+	 ]
+	},
+	{
+      "Name": "MaterialsD",
+      "Loot": [
+	  { "Item": "DustLegendary"},
+	  { "Item": "RunestoneLegendary"},
+	  { "Item": "ShardLegendary"},
+	  { "Item": "EssenceLegendary"}
+	 ]
+	},
+	{
+      "Name": "MaterialsF",
+      "Loot": [
+	  { "Item": "DustMythic"},
+	  { "Item": "RunestoneMythic"},
+	  { "Item": "ShardMythic"},
+	  { "Item": "EssenceMythic"}
+	 ]
+	},
+	{
+      "Name": "MagicMaterials",
+      "Loot": [
+		{ "Item": "MaterialsA", "Weight": 3},
+		{ "Item": "MaterialsB", "Weight": 1},
+		{ "Item": "MaterialsC", "Weight": 0.6},
+		{ "Item": "MaterialsD", "Weight": 0.2},
+		{ "Item": "MaterialsF", "Weight": 0.1}
+       ]
+	  }
+	 ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_meadows')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_blackforest')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_forestcrypt')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_fCrypt')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_trollcave')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'shipwreck_karve_chest')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_meadows_buried')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_sunkencrypt')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_swamp')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_mountains')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_mountaincave')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_plains_stone')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_heath')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_dvergrtown')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_dvergrtower')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_dvergr_loose_stone')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_charredfortress')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureChest_ashland_stone')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Meadows')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Meadows')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 75], [2, 24], [3, 1], [4, 0] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_BlackForest')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_BlackForest')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 75], [2, 22], [3, 3], [4, 0] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Swamp')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Swamp')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 75], [2, 20], [3, 5], [4, 0] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mountain')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mountain')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 70], [2, 30], [3, 9], [4, 1] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Plains')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Plains')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 25], [2, 25], [3, 25], [4, 25] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mistlands')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_Mistlands')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 0], [2, 65], [3, 30], [4, 5] ]
+    },
+	
+	{
+	  "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_AshLands')].Loot",
+	  "Action": "Overwrite",
+	  "Value": [
+		{ "Item": "MagicMaterials"}
+	  ]
+	},
+	{
+      "Path": "$.LootTables[?(@.Object == 'TreasureMapChest_AshLands')].Drops",
+      "Action": "Overwrite",
+      "Value": [ [1, 0], [2, 65], [3, 30], [4, 5] ]
+    }
+  ]
+}

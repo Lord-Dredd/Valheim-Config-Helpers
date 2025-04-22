@@ -1,0 +1,42 @@
+{
+	"TargetFile": "adventuredata.json",
+	"Author": "AllTheHeims",
+	"RequireAll": true, 
+	"Patches": 
+		[
+			{
+				"Path": "$.Gamble.GambleCosts", 
+				"Action": "AppendAll",
+				"Value": 
+					[
+						{ "Item": "CapeBoar",        		"CoinsCost": 433  },
+						{ "Item": "CapeBush",        		"CoinsCost": 649  },
+
+						{ "Item": "CapeGreydwarf",         	"CoinsCost": 731  },
+						{ "Item": "CapeSerpent",         	"CoinsCost": 731  },
+						{ "Item": "CapeEinherjar",       	"CoinsCost": 1097  },
+
+						{ "Item": "CapeLeech",         		"CoinsCost": 1236  },
+						{ "Item": "CapeNeck",         		"CoinsCost": 1236  },
+						{ "Item": "CapeSurtling",         	"CoinsCost": 1236  },
+						{ "Item": "CapeWraith",         	"CoinsCost": 1236  },
+
+						{ "Item": "CapeAdventurer",         "CoinsCost": 2088  },
+						{ "Item": "CapeBerserker",         	"CoinsCost": 2088  },
+						{ "Item": "CapeCultist",         	"CoinsCost": 2088  },
+						{ "Item": "CapeStalker",         	"CoinsCost": 2088  },
+
+						{ "Item": "CapeCrusader",         	"CoinsCost": 3529  },
+						{ "Item": "CapeKnight",         	"CoinsCost": 3529  },
+						{ "Item": "CapeShaman",         	"CoinsCost": 3529  },
+						{ "Item": "CapeDvergr",         	"CoinsCost": 3529  },
+
+						{ "Item": "CapeBrawler",         	"CoinsCost": 5964  },
+
+						{ "Item": "CapeRabbit",         	"CoinsCost": 8290  },
+
+						{ "Item": "CapeRusted",         	"CoinsCost": 3362  }
+					]  
+			}
+		]
+}

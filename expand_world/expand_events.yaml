@@ -1,0 +1,859 @@
+- name: army_eikthyr
+  customChance: 100
+  duration: 90
+  biome: Meadows, BlackForest
+  notRequiredGlobalKeys: defeated_eikthyr
+  notRequiredPlayerKeys: GP_Eikthyr
+  notRequiredKnownItems: PickaxeAntler, PickaxeBronze, PickaxeIron, HardAntler, TrophyEikthyr
+  startMessage: $event_eikthyrarmy_start
+  endMessage: $event_eikthyrarmy_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Neck
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Boar
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: army_goblin
+  customChance: 100
+  duration: 120
+  biome: Meadows, BlackForest, Plains
+  requiredGlobalKeys: defeated_dragon
+  notRequiredGlobalKeys: defeated_goblinking
+  requiredPlayerKeys: $se_moder_name
+  notRequiredPlayerKeys: GP_Yagluth
+  requiredKnownItems: DragonTear, TrophyDragonQueen
+  notRequiredKnownItems: TrophyGoblinKing, YagluthDrop
+  startMessage: $event_goblinarmy_start
+  endMessage: $event_goblinarmy_end
+  forceMusic: CombatEventL4
+  spawns:
+  - prefab: Goblin
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    spawnChance: 58.2
+    maxSpawned: 8
+    spawnInterval: 10
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupSizeMax: 4
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: GoblinBrute
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    spawnChance: 47
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: GoblinShaman
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    spawnChance: 47
+    maxSpawned: 1
+    spawnInterval: 20
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: army_theelder
+  customChance: 100
+  duration: 120
+  biome: Meadows, Swamp, BlackForest, Plains
+  requiredGlobalKeys: defeated_eikthyr
+  notRequiredGlobalKeys: defeated_gdking
+  requiredPlayerKeys: GP_TheElder
+  notRequiredPlayerKeys: GP_TheElder
+  requiredKnownItems: PickaxeAntler, PickaxeBronze, PickaxeIron, HardAntler, TrophyEikthyr
+  notRequiredKnownItems: TrophyTheElder, CryptKey
+  startMessage: $event_gdkingarmy_start
+  endMessage: $event_gdkingarmy_end
+  forceMusic: CombatEventL2
+  spawns:
+  - prefab: Greydwarf
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 6
+    spawnInterval: 5
+    minAltitude: 0
+    maxAltitude: 1000
+    groupSizeMax: 3
+    groupRadius: 3
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greyling
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 4
+    spawnInterval: 5
+    minAltitude: 0
+    maxAltitude: 1000
+    groupSizeMax: 3
+    groupRadius: 3
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greydwarf_Shaman
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 1
+    spawnInterval: 5
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greydwarf_Elite
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 1
+    spawnInterval: 5
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: wolves
+  customChance: 100
+  duration: 120
+  nearBaseOnly: false
+  biome: Mountain, Plains
+  requiredGlobalKeys: defeated_bonemass
+  requiredPlayerKeys: GP_Bonemass
+  requiredKnownItems: Wishbone, TrophyBonemass
+  startMessage: $event_wolves_start
+  endMessage: $event_wolves_end
+  forceMusic: CombatEventL3
+  spawns:
+  - prefab: Wolf
+    biome: Mountain, Plains, 128
+    maxSpawned: 6
+    spawnInterval: 2
+    minAltitude: 0
+    maxAltitude: 2000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  pauseIfNoPlayerInArea: false
+- name: skeletons
+  customChance: 100
+  duration: 120
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains, Mistlands
+  requiredGlobalKeys: defeated_bonemass
+  requiredPlayerKeys: GP_Bonemass
+  requiredKnownItems: TrophyBonemass, Wishbone
+  startMessage: $event_skeletons_start
+  endMessage: $event_skeletons_end
+  forceMusic: CombatEventL3
+  spawns:
+  - prefab: Skeleton
+    maxSpawned: 20
+    spawnInterval: 10
+    minAltitude: -1
+    maxAltitude: 2000
+    spawnDistance: 10
+    groupSizeMin: 4
+    groupSizeMax: 6
+    groupRadius: 4
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Skeleton_Poison
+    spawnChance: 54
+    maxSpawned: 1
+    spawnInterval: 15
+    minAltitude: -1
+    maxAltitude: 2000
+    spawnDistance: 10
+    groupRadius: 4
+    huntPlayer: true
+    groundOffset: 0
+- name: army_bonemass
+  customChance: 100
+  duration: 150
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  requiredGlobalKeys: defeated_gdking
+  notRequiredGlobalKeys: defeated_bonemass
+  requiredPlayerKeys: GP_TheElder
+  notRequiredPlayerKeys: GP_Bonemass
+  requiredKnownItems: TrophyTheElder, CryptKey
+  notRequiredKnownItems: TrophyBonemass, Wishbone
+  startMessage: $event_bonemassarmy_start
+  endMessage: $event_bonemassarmy_end
+  forceMusic: CombatEventL3
+  forceEnvironment: SwampRain
+  spawns:
+  - prefab: Draugr
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 3
+    spawnInterval: 5
+    minAltitude: -1
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Skeleton
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 6
+    spawnInterval: 5
+    minAltitude: -1
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: army_moder
+  customChance: 100
+  duration: 150
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  requiredGlobalKeys: defeated_bonemass
+  notRequiredGlobalKeys: defeated_dragon
+  requiredPlayerKeys: $se_bonemass_name
+  notRequiredPlayerKeys: GP_Moder
+  requiredKnownItems: TrophyBonemass, Wishbone
+  notRequiredKnownItems: TrophyDragonQueen, DragonTear
+  startMessage: $event_moderarmy_start
+  endMessage: $event_moderarmy_end
+  forceMusic: CombatEventL4
+  forceEnvironment: Snow
+  spawns:
+  - prefab: Hatchling
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 3
+    spawnInterval: 10
+    minAltitude: -1
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 10
+- name: blobs
+  customChance: 100
+  duration: 120
+  biome: Meadows, Swamp, BlackForest, Plains
+  requiredGlobalKeys: defeated_bonemass
+  requiredPlayerKeys: GP_Bonemass
+  requiredKnownItems: TrophyBonemass, Wishbone
+  startMessage: $event_bonemassarmy_start
+  endMessage: $event_bonemassarmy_end
+  forceMusic: CombatEventL3
+  forceEnvironment: SwampRain
+  spawns:
+  - prefab: Blob
+    biome: Meadows, Swamp, BlackForest, Plains, 128
+    maxSpawned: 5
+    spawnInterval: 2
+    minAltitude: -1
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupSizeMax: 3
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: BlobElite
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 2
+    spawnInterval: 10
+    minAltitude: -1
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: foresttrolls
+  customChance: 100
+  duration: 80
+  biome: Meadows, Swamp, BlackForest, Plains
+  requiredGlobalKeys: KilledTroll, defeated_gdking
+  requiredPlayerKeysAll: KilledTroll, defeated_gdking
+  requiredKnownItems: TrophyTheElder, CryptKey
+  startMessage: $event_foresttrolls_start
+  endMessage: $event_foresttrolls_end
+  forceMusic: CombatEventL2
+  spawns:
+  - prefab: Troll
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 2
+    spawnInterval: 20
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: surtlings
+  customChance: 100
+  duration: 120
+  biome: Meadows, Swamp, BlackForest, Plains
+  requiredGlobalKeys: killed_surtling, defeated_bonemass
+  requiredPlayerKeysAll: killed_surtling, defeated_bonemass
+  requiredKnownItems: TrophyBonemass, Wishbone
+  startMessage: $event_surtlings_start
+  endMessage: $event_surtlings_end
+  forceMusic: CombatEventL3
+  forceEnvironment: Ashrain
+  spawns:
+  - prefab: Surtling
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 4
+    spawnInterval: 2
+    minAltitude: 1
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: boss_eikthyr
+  customChance: 100
+  duration: 0
+  nearBaseOnly: false
+  biome: Meadows, Swamp, BlackForest, Plains
+  forceMusic: boss_eikthyr
+  forceEnvironment: Eikthyr
+  spawns: 
+  - prefab: Greydwarf
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 3
+    spawnInterval: 100
+    minAltitude: 0
+    maxAltitude: 1000
+    groupSizeMax: 3
+    groupRadius: 3
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greydwarf_Shaman
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 1
+    spawnInterval: 20
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Neck
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 1
+    spawnInterval: 20
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true  
+  random: false
+- name: boss_bonemass
+  customChance: 100
+  duration: 0
+  nearBaseOnly: false
+  biome: Meadows, Swamp, BlackForest, Plains
+  forceMusic: boss_bonemass
+  forceEnvironment: Bonemass
+  spawns: 
+  - prefab: Draugr
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 3
+    spawnInterval: 300
+    minAltitude: -1
+    maxAltitude: 1000
+    spawnDistance: 5
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Surtling
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 4
+    spawnInterval: 300
+    minAltitude: 1
+    maxAltitude: 1000
+    spawnDistance: 5
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0  
+  random: false
+- name: boss_moder
+  customChance: 100
+  duration: 0
+  nearBaseOnly: false
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+  forceMusic: boss_moder
+  forceEnvironment: Moder
+  spawns: 
+  - prefab: Hatchling
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 6
+    spawnInterval: 10
+    minAltitude: 100
+    maxAltitude: 1000
+    spawnDistance: 5
+    groupRadius: 1
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 10
+  random: false
+- name: boss_gdking
+  customChance: 100
+  duration: 0
+  nearBaseOnly: false
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+  forceMusic: boss_gdking
+  forceEnvironment: GDKing
+  spawns: 
+  - prefab: Troll
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 1
+    maxLevel: 1
+    minLevel: 1
+    spawnInterval: 100
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  random: false
+- name: boss_goblinking
+  customChance: 100
+  duration: 0
+  nearBaseOnly: false
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+  forceMusic: boss_goblinking
+  forceEnvironment: GoblinKing
+  spawns: []
+  random: false
+- name: army_theelder
+  customChance: 100
+  duration: 120
+  biome: Meadows, Swamp, BlackForest, Plains
+  requiredGlobalKeys: defeated_eikthyr
+  notRequiredGlobalKeys: defeated_gdking
+  requiredPlayerKeys: GP_Eikthyr
+  notRequiredPlayerKeys: GP_TheElder
+  requiredKnownItems: PickaxeAntler, PickaxeBronze, PickaxeIron, HardAntler, TrophyEikthyr
+  notRequiredKnownItems: TrophyTheElder, CryptKey
+  startMessage: $event_gdkingarmy_start
+  endMessage: $event_gdkingarmy_end
+  forceMusic: CombatEventL2
+  spawns:
+  - prefab: Greydwarf
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 6
+    spawnInterval: 5
+    minAltitude: 0
+    maxAltitude: 1000
+    groupSizeMax: 3
+    groupRadius: 3
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greyling
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 4
+    spawnInterval: 5
+    minAltitude: 0
+    maxAltitude: 1000
+    groupSizeMax: 3
+    groupRadius: 3
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greydwarf_Shaman
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 1
+    spawnInterval: 5
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+  - prefab: Greydwarf_Elite
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 1
+    spawnInterval: 5
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+    groundOffset: 0
+- name: army_moder
+  customChance: 100
+  duration: 150
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  requiredGlobalKeys: defeated_bonemass
+  notRequiredGlobalKeys: defeated_dragon
+  requiredPlayerKeys: GP_Bonemass
+  notRequiredPlayerKeys: GP_Moder
+  requiredKnownItems: TrophyBonemass, Wishbone
+  notRequiredKnownItems: TrophyDragonQueen, DragonTear
+  startMessage: $event_moderarmy_start
+  endMessage: $event_moderarmy_end
+  forceMusic: CombatEventL4
+  forceEnvironment: Snow
+  spawns:
+  - prefab: Hatchling
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 3
+    spawnInterval: 10
+    minAltitude: -1
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 10
+- name: ghosts
+  customChance: 100
+  duration: 150
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains
+  requiredGlobalKeys: defeated_bonemass
+  requiredPlayerKeys: GP_Bonemass
+  notRequiredPlayerKeys: GP_Moder
+  requiredKnownItems: TrophyBonemass, Wishbone
+  notRequiredKnownItems: TrophyDragonQueen, DragonTear
+  startMessage: $event_ghosts_start
+  endMessage: $event_ghosts_end
+  forceMusic: forestcrypt
+  forceEnvironment: Ghosts
+  spawns:
+  - prefab: Ghost
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 3
+    spawnInterval: 10
+    minAltitude: -1
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 10
+  - prefab: Wraith
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+    maxSpawned: 2
+    spawnInterval: 10
+    minAltitude: -1
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 10
+- name: bats
+  customChance: 100
+  duration: 120
+  requiredGlobalKeys: KilledBat, defeated_bonemass
+  requiredPlayerKeysAll: KilledBat, defeated_bonemass
+  startMessage: $event_bats_start
+  endMessage: $event_bats_end
+  forceMusic: CombatEventL3
+  spawns:
+  - prefab: Bat
+    maxSpawned: 10
+    spawnInterval: 10
+    minAltitude: -1000
+    maxAltitude: 5000
+    spawnDistance: 10
+    groupSizeMin: 2
+    groupSizeMax: 4
+    groupRadius: 4
+    maxTilt: 90
+    huntPlayer: true
+    groundOffset: 0
+- name: boss_queen
+  customChance: 100
+  duration: 0
+  nearBaseOnly: false
+  forceMusic: boss_queen
+  forceEnvironment: Queen
+  spawns: []
+  random: false
+- name: army_gjall
+  customChance: 100
+  duration: 90
+  biome: Mistlands
+  requiredGlobalKeys: defeated_goblinking
+  notRequiredGlobalKeys: defeated_queen
+  requiredPlayerKeys: $se_yagluth_name
+  notRequiredPlayerKeys: GP_Queen
+  requiredKnownItems: YagluthDrop, Demister, Wisp
+  notRequiredKnownItems: QueenDrop
+  startMessage: $event_gjallarmy_start
+  endMessage: $event_gjallarmy_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Gjall
+    maxSpawned: 1
+    spawnInterval: 40
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Tick
+    maxSpawned: 4
+    spawnInterval: 20
+    maxLevel: 3
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: army_seekers
+  customChance: 100
+  duration: 90
+  biome: BlackForest, Plains, AshLands, DeepNorth, Mistlands
+  requiredGlobalKeys: defeated_goblinking
+  notRequiredGlobalKeys: defeated_queen
+  notRequiredPlayerKeys: GP_Queen
+  requiredKnownItems: YagluthDrop, Demister, Wisp
+  notRequiredKnownItems: QueenDrop
+  startMessage: $event_seekerarmy_start
+  endMessage: $event_seekerarmy_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Seeker
+    maxSpawned: 3
+    spawnInterval: 35
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: SeekerBrood
+    maxSpawned: 8
+    spawnInterval: 20
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: SeekerBrute
+    enabled: false
+    maxSpawned: 1
+    spawnInterval: 100
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: hildirboss1
+  customChance: 100
+  duration: 90
+  requiredGlobalKeys: hildir1
+  requiredPlayerKeys: BossHildir1
+  requiredKnownItems: chest_hildir1
+  startMessage: $event_hildirboss1_start
+  endMessage: $event_hildirboss1_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Skeleton_Hildir_nochest
+    maxSpawned: 1
+    spawnInterval: 100
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Skeleton
+    maxSpawned: 4
+    spawnInterval: 20
+    maxLevel: 3
+    minLevel: 2
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupSizeMax: 2
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Skeleton_Poison
+    maxSpawned: 1
+    spawnInterval: 100
+    maxLevel: 3
+    minLevel: 2
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: hildirboss2
+  customChance: 100
+  duration: 90
+  requiredGlobalKeys: hildir2
+  requiredPlayerKeys: BossHildir2
+  requiredKnownItems: chest_hildir2
+  startMessage: $event_hildirboss2_start
+  endMessage: $event_hildirboss2_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Fenring_Cultist_Hildir_nochest
+    maxSpawned: 1
+    spawnInterval: 100
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Fenring
+    maxSpawned: 3
+    spawnInterval: 20
+    maxLevel: 3
+    minLevel: 2
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupSizeMax: 2
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Fenring_Cultist
+    maxSpawned: 1
+    spawnInterval: 100
+    maxLevel: 3
+    minLevel: 2
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: hildirboss3
+  customChance: 100
+  duration: 90
+  requiredGlobalKeys: hildir3
+  requiredPlayerKeys: BossHildir3
+  requiredKnownItems: chest_hildir3
+  startMessage: $event_hildirboss3_start
+  endMessage: $event_hildirboss3_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: GoblinBruteBros_nochest
+    maxSpawned: 1
+    spawnInterval: 100
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Goblin
+    maxSpawned: 4
+    spawnInterval: 20
+    maxLevel: 3
+    minLevel: 2
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupSizeMax: 2
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: GoblinBrute
+    maxSpawned: 1
+    spawnInterval: 100
+    maxLevel: 3
+    minLevel: 2
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: gemgoblin
+  enabled: false
+  customChance: 100
+  duration: 90
+  nearBaseOnly: false
+  biome: BlackForest, Plains, AshLands, DeepNorth, Mistlands
+  requiredGlobalKeys: defeated_fader
+  notRequiredGlobalKeys: defeated_queen
+  notRequiredPlayerKeys: GP_Queen
+  notRequiredKnownItems: QueenDrop
+  startMessage: $event_gemgoblin_start
+  endMessage: $event_gemgoblin_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Goblin_Gem
+    biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, Mistlands
+    maxSpawned: 3
+    spawnInterval: 35
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+- name: boss_fader
+  customChance: 100
+  duration: 0
+  nearBaseOnly: false
+  biome: Meadows, Swamp, Mountain, BlackForest, Plains, AshLands, DeepNorth, 128, Ocean, Mistlands
+  forceMusic: boss_fader
+  forceEnvironment: Fader
+  spawns: []
+  random: false
+- name: army_charred
+  customChance: 100
+  duration: 90
+  biome: BlackForest, Plains, AshLands, DeepNorth, Mistlands
+  requiredGlobalKeys: defeated_queen
+  notRequiredGlobalKeys: defeated_fader
+  startMessage: $event_charredarmy_start
+  endMessage: $event_charredarmy_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Charred_Melee
+    maxSpawned: 2
+    spawnInterval: 50
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Charred_Twitcher
+    maxSpawned: 3
+    spawnInterval: 40
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Charred_Archer
+    maxSpawned: 3
+    spawnInterval: 50
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true
+- name: army_charredspawners
+  customChance: 100
+  duration: 90
+  biome: BlackForest, Plains, AshLands, DeepNorth, Mistlands
+  requiredGlobalKeys: defeated_queen
+  notRequiredGlobalKeys: defeated_fader
+  startMessage: $event_charredspawnerarmy_start
+  endMessage: $event_charrespawnerarmy_end
+  forceMusic: CombatEventL1
+  spawns:
+  - prefab: Spawner_CharredStone_event
+    maxSpawned: 3
+    spawnInterval: 60
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 50
+    groupRadius: 1
+    huntPlayer: true
+  - prefab: Charred_Twitcher
+    maxSpawned: 3
+    spawnInterval: 40
+    minAltitude: 0
+    maxAltitude: 1000
+    spawnDistance: 10
+    groupRadius: 1
+    huntPlayer: true

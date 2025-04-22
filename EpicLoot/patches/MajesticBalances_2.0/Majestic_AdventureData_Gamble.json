@@ -1,0 +1,59 @@
+{
+  "TargetFile": "adventuredata.json", 
+  "Author": "Majestic",
+  "RequireAll": true, 
+  "Patches": [
+	{
+	 "Path": "$.Gamble.GambleRarityChance",
+	 "Action": "Overwrite",
+	 "Value": [ 65, 20, 9, 3, 2, 1 ]
+    },
+	{
+      "Path": "$.Gamble.GambleRarityChanceByRarity",
+      "Action": "Overwrite",
+      "Value": [
+      [ 0, 90, 10, 0, 0, 0 ],
+      [ 50, 10, 40, 0, 0, 0 ],
+      [ 50, 10, 20, 30, 0, 0 ],
+      [ 50, 0, 5, 10, 30, 5 ],
+      [ 50, 0, 0, 5, 5, 40 ]
+	  ]
+    },
+	{
+      "Path": "$.TreasureMap.SaleItems",
+      "Action": "Overwrite",
+      "Value": [
+      { "Item": "RunestoneMagic",     "ForestTokenCost": 5 },
+      { "Item": "RunestoneRare",      "ForestTokenCost": 10 },
+      { "Item": "RunestoneEpic",      "IronBountyTokenCost": 10 },
+      { "Item": "RunestoneLegendary", "IronBountyTokenCost": 15 },
+      { "Item": "RunestoneMythic",    "GoldBountyTokenCost": 15 }
+	  ]
+    },
+	{
+      "Path": "$.TreasureMap.StartRadiusMin",
+      "Action": "Overwrite",
+      "Value": 0
+    },
+	{
+      "Path": "$.TreasureMap.StartRadiusMax",
+      "Action": "Overwrite",
+      "Value": 250
+    },
+	{
+      "Path": "$.TreasureMap.IncreaseRadiusCount",
+      "Action": "Overwrite",
+      "Value": 3
+    },
+	{
+      "Path": "$.TreasureMap.RadiusInterval",
+      "Action": "Overwrite",
+      "Value": 50
+    },
+	{
+      "Path": "$.TreasureMap.MinimapAreaRadius",
+      "Action": "Overwrite",
+      "Value": 45
+    }
+  ]
+}
