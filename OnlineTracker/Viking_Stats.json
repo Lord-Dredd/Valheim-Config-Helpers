@@ -1,0 +1,284 @@
+{
+  "TimeTracked": {
+    "Fosty Snow": {
+      "Today": 1129,
+      "Week": 1129,
+      "Total": 1129
+    },
+    "LordDredd": {
+      "Today": 264,
+      "Week": 264,
+      "Total": 264
+    },
+    "Cloudberrii": {
+      "Today": 869,
+      "Week": 869,
+      "Total": 869
+    },
+    "Drakk": {
+      "Today": 1029,
+      "Week": 1029,
+      "Total": 1029
+    },
+    "Willow Dredd": {
+      "Today": 735,
+      "Week": 735,
+      "Total": 735
+    },
+    "Pissy Pants": {
+      "Today": 1391,
+      "Week": 1391,
+      "Total": 1391
+    },
+    "Invisible": {
+      "Today": 2236,
+      "Week": 2236,
+      "Total": 2236
+    },
+    "Mintygoodness": {
+      "Today": 10,
+      "Week": 10,
+      "Total": 10
+    },
+    "MortalDredd": {
+      "Today": 422,
+      "Week": 422,
+      "Total": 422
+    },
+    "Fjicky": {
+      "Today": 1443,
+      "Week": 1443,
+      "Total": 1443
+    },
+    "Landbjorn": {
+      "Today": 1230,
+      "Week": 1230,
+      "Total": 1230
+    },
+    "Rosiie": {
+      "Today": 731,
+      "Week": 731,
+      "Total": 731
+    },
+    "ScrubDredd": {
+      "Today": 55,
+      "Week": 55,
+      "Total": 55
+    },
+    "Lord Bumbo": {
+      "Today": 477,
+      "Week": 477,
+      "Total": 477
+    },
+    "Boogy": {
+      "Today": 1391,
+      "Week": 1391,
+      "Total": 1391
+    },
+    "Foxie Loxie": {
+      "Today": 1675,
+      "Week": 1675,
+      "Total": 1675
+    },
+    "Prdator": {
+      "Today": 816,
+      "Week": 816,
+      "Total": 816
+    },
+    "Dont TrUsT Me": {
+      "Today": 458,
+      "Week": 458,
+      "Total": 458
+    },
+    "Joline": {
+      "Today": 299,
+      "Week": 299,
+      "Total": 299
+    },
+    "Alittlebig": {
+      "Today": 892,
+      "Week": 892,
+      "Total": 892
+    },
+    "Dread Madmad G": {
+      "Today": 1360,
+      "Week": 1360,
+      "Total": 1360
+    },
+    "Con ius": {
+      "Today": 874,
+      "Week": 874,
+      "Total": 874
+    },
+    "Jay Son Of Mad": {
+      "Today": 1362,
+      "Week": 1362,
+      "Total": 1362
+    },
+    "Matt Icus": {
+      "Today": 699,
+      "Week": 699,
+      "Total": 699
+    },
+    "Mlexi": {
+      "Today": 50,
+      "Week": 50,
+      "Total": 50
+    },
+    "Dreddwok": {
+      "Today": 1063,
+      "Week": 1063,
+      "Total": 1063
+    },
+    "Wonderer": {
+      "Today": 237,
+      "Week": 237,
+      "Total": 237
+    },
+    "Myztro": {
+      "Today": 9,
+      "Week": 9,
+      "Total": 9
+    },
+    "Ragnar Longcock": {
+      "Today": 64,
+      "Week": 64,
+      "Total": 64
+    },
+    "Shawarrma": {
+      "Today": 173,
+      "Week": 173,
+      "Total": 173
+    }
+  },
+  "LoginTracking": {
+    "Today": [
+      "Fosty Snow",
+      "LordDredd",
+      "Cloudberrii",
+      "Drakk",
+      "Willow Dredd",
+      "Pissy Pants",
+      "Invisible",
+      "Mintygoodness",
+      "MortalDredd",
+      "Fjicky",
+      "Landbjorn",
+      "Rosiie",
+      "ScrubDredd",
+      "Lord Bumbo",
+      "Boogy",
+      "Foxie Loxie",
+      "Prdator",
+      "Dont TrUsT Me",
+      "Joline",
+      "Alittlebig",
+      "Dread Madmad G",
+      "Con ius",
+      "Jay Son Of Mad",
+      "Matt Icus",
+      "Mlexi",
+      "Dreddwok",
+      "Wonderer",
+      "Myztro",
+      "Ragnar Longcock",
+      "Shawarrma"
+    ],
+    "Week": [
+      "Fosty Snow",
+      "LordDredd",
+      "Cloudberrii",
+      "Drakk",
+      "Willow Dredd",
+      "Pissy Pants",
+      "Invisible",
+      "Mintygoodness",
+      "MortalDredd",
+      "Fjicky",
+      "Landbjorn",
+      "Rosiie",
+      "ScrubDredd",
+      "Lord Bumbo",
+      "Boogy",
+      "Foxie Loxie",
+      "Prdator",
+      "Dont TrUsT Me",
+      "Joline",
+      "Alittlebig",
+      "Dread Madmad G",
+      "Con ius",
+      "Jay Son Of Mad",
+      "Matt Icus",
+      "Mlexi",
+      "Dreddwok",
+      "Wonderer",
+      "Myztro",
+      "Ragnar Longcock",
+      "Shawarrma"
+    ],
+    "AllTime": [
+      "Fosty Snow",
+      "LordDredd",
+      "Cloudberrii",
+      "Drakk",
+      "Willow Dredd",
+      "Pissy Pants",
+      "Invisible",
+      "Mintygoodness",
+      "MortalDredd",
+      "Fjicky",
+      "Landbjorn",
+      "Rosiie",
+      "ScrubDredd",
+      "Lord Bumbo",
+      "Boogy",
+      "Foxie Loxie",
+      "Prdator",
+      "Dont TrUsT Me",
+      "Joline",
+      "Alittlebig",
+      "Dread Madmad G",
+      "Con ius",
+      "Jay Son Of Mad",
+      "Matt Icus",
+      "Mlexi",
+      "Dreddwok",
+      "Wonderer",
+      "Myztro",
+      "Ragnar Longcock",
+      "Shawarrma"
+    ]
+  },
+  "MilestonesHit": {
+    "Fosty Snow": [],
+    "LordDredd": [],
+    "Cloudberrii": [],
+    "Drakk": [],
+    "Willow Dredd": [],
+    "Pissy Pants": [],
+    "Invisible": [],
+    "Mintygoodness": [],
+    "MortalDredd": [],
+    "Fjicky": [],
+    "Landbjorn": [],
+    "Rosiie": [],
+    "ScrubDredd": [],
+    "Lord Bumbo": [],
+    "Boogy": [],
+    "Foxie Loxie": [],
+    "Prdator": [],
+    "Dont TrUsT Me": [],
+    "Joline": [],
+    "Alittlebig": [],
+    "Dread Madmad G": [],
+    "Con ius": [],
+    "Jay Son Of Mad": [],
+    "Matt Icus": [],
+    "Mlexi": [],
+    "Dreddwok": [],
+    "Wonderer": [],
+    "Myztro": [],
+    "Ragnar Longcock": [],
+    "Shawarrma": []
+  }
+}
